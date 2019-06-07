@@ -11,6 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+	
+	<meta name="author" content="Eduardo Juárez">
+	
+	<meta name="author" content="Benjamín Valdés">
+
+	<meta name="author" content="Becari@ Anónimo">
+	
     <title>Actividad: Autoestudio sobre funciones y procedimientos: Estatutos de repetición.</title>
 </head>
 
@@ -30,7 +37,7 @@
 
         <div class="container">
             <div class="section">
-                <h3>Actividad: Autoestudio sobre funciones y procedimientos: Estatutos de repetición.</h3>
+                <h3>Actividad: Autoestudio sobre funciones.</h3>
             </div>
         </div>
 
@@ -38,12 +45,10 @@
             <div class="section" id="descripcion">
                 <h5>
                   <i class="small material-icons">info_outline</i>
-                  Autoestudio sobre funciones y procedimientos: Estatutos de repetición.
+                  Autoestudio sobre funciones.
                 </h5>
-                <p>Realizarás el autoestudio que presenta los conceptos de funciones y procedimientos.</p>
+                <p>Realizarás el autoestudio que presenta los conceptos de funciones.</p>
             </div>
-            <div class="divider"></div>
-
             <div class="divider"></div>
 
             <div class="section" id="objetivos">
@@ -51,13 +56,8 @@
                 <i class="small material-icons">check</i>
                 Objetivos de aprendizaje</h5>
                 <ul class="collection with-header">
-                    <li class="collection-item">Conocer los conceptos de función y procedimiento, variable global y local. </li>
-                    <li class="collection-item">
-                    Diferenciar entre una función y un procedimiento, una variable global y una local.
-                    </li>
-                    <li class="collection-item">
-                    Reconocer la importancia del uso de funciones y procedimiento para el diseño de un programa en C.
-                    </li>
+                    <li class="collection-item">Conocer los conceptos de función, variable global y local. </li>
+                    <li class="collection-item">Reconocer la importancia del uso de funciones para el diseño de un programa.</li>
                 </ul>
             </div>
             <div class="divider"></div>
@@ -69,32 +69,38 @@
                 <ul class="collection">
 
                     <li class="collection-item">
-                        <p>Estudia los siguientes conceptos, haz notas y contesta las preguntas en tu libreta. Te recomendamos el uso de las siguientes fuentes:</p>      
+                        <p>Estudia los siguientes conceptos, haz notas y contesta las preguntas en tu libreta. 
+						Te recomendamos el uso de las siguientes fuentes:</p>      
 						<p>Fernandez, A. <i>Python 3: Al Descubierto </i>  Alfaomega, 2013, ISBN 978-607-707-718-3 </p>
                         <p>Temas / conceptos:</p>
                         <ol>
-							<li>Concepto de función. (pp. 190)</li>
-							<li>Estructura de una función. (pp. 191)</li>
-							<li>Funciones de carácter. (pp. 213)</li>
-							<li>Funciones numéricas. (pp. 215)</li>
-						</ol>
-						<p>Joyanes Aguilar, L. y Zahonero Martínez, I. <i>Programación en C, C++, Java y UML.</i> México : McGraw Hill, 2014.</p>
-						<ol>
-							<li>Concepto de función. (pp. 177)</li>
-							<li>Estructura de una función. (pp. 178)</li>
-							<li>Funciones de carácter. (pp. 199)</li>
-							<li>Funciones numéricas. (pp. 202)</li>
-						</ol>						
+							<li>Funciones pag. 79 </li>
+							<li>Paso de parámetros pag. 80 </li>
+							<li>Valores por defecto y nombre de Parámetros pag. 82 </li>
+							<li> <a href="documentos/Casos de Prueba.pdf"> Casos de prueba</a> Gracias Prof. Yolanda! :)  </li>
+						</ol>					
                     </li>
                     <li class="collection-item">
                     <p>Responde las siguientes preguntas:</p>
                         <ol>
-                            <li>1. ¿Cómo se relacionan las funciones con el la estrategia divide y conquista (divide y vencerás)?</li>
-                            <li>2. ¿Qué tipo de funciones hay y para qué utilizarías cada una?</li>
-                            <li>3. ¿Cómo sabes cuando un código debe de ir en una función en lugar de en el main?¿Qué criterios usarías para decidiri esto?</li>
-                        </ol>
-                    </li>
-                    
+                            <li>1. Cambia el siguiente código para que esté en una función y se mande a llamar desde un script. 
+							La funcion debe recibir el radio y devolver el area, la impresión debe de hacerse desde donde 
+							se manda a llamar la función.
+								<p>
+									PI = 3.1415
+									<br>radio  = float(input('porfavor dame el area'))
+									<br>area  = radio * radio * PI
+									<br>print("el area es", area)</p>
+							</li>
+                            <li>2. Observa el siguiente ejemplo de como se separar un programa en diferentes funciones:
+								<img src="imagenes/funciones_comparacion.png" alt="Ejemplo autoestudio">
+								<a href="documentos/prisma pentagonal.py"> prisma pentagonal.py </a> y <a href="documentos/prisma pentagonal funciones.py"> prisma pentagonal funciones.py </a>.
+								Usando estos documento como referencia separa el siguiente <a href="documentos/autoestudiofunciones.py"> programa.py </a> en funciones. Incluye las funciones en tus notas </li>
+							<li>3. ¿Cómo se relacionan las funciones con el diseño del algoritmo de un programa?</li>
+							<li>4. ¿Qué criterios usarías para decidir cuando un código debe de ir en una función separada?</li>
+							<li>5. Los siguientes son ejemplos de un casos de prueba <a href="documentos/Casos de prueba.py"> ejemplos casos de prueba </a>. Haz 3 casos de prueba una de las funciones que realizaste en la pregunta anterior. Incluye las funciones en tus notas </li> 	
+						</ol>
+					</li>
                 </ul>
             </div>
             <div class="divider"></div>
@@ -135,7 +141,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2016 Escuela de Tecnologías de Información y Electrónica - ITESM Campus Querétaro.
+               © 2019 Escuela de Ingeniería y Ciencias - Tecnológico de Monterrey.
             </div>
         </div>
     </footer>
