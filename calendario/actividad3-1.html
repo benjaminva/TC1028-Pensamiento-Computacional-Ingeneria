@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    
+
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,7 +17,8 @@
 	<meta name="author" content="Benjamín Valdés">
 
 	<meta name="author" content="Becari@ Anónimo">
-    <title>Actividad: Tarea sobre variables, tipos de datos y operadores: Variables, tipos y operadores.</title>
+	
+    <title>Actividad: Autoestudio sobre el uso de la estructura condicional <code>if</code>.</title>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
 
         <div class="container">
             <div class="section">
-                <h3>Actividad: Tarea sobre variables, tipos de datos y operadores: Variables, tipos y operadores.</h3>
+                <h3>Actividad: Autoestudio sobre el uso de la estructura condicional <code>if</code>: Estatutos condicionales.</h3>
             </div>
         </div>
 
@@ -44,18 +45,9 @@
             <div class="section" id="descripcion">
                 <h5>
                   <i class="small material-icons">info_outline</i>
-                  Actividad: Tarea sobre variables, tipos de datos y operadores: Variables, tipos y operadores. 
+                  Autoestudio sobre el uso de la estructura condicional <code>if</code>: Estatutos condicionales. 
                 </h5>
-                <p>Desarrollarás la solución de algunos problemas.</p>
-            </div>
-            <div class="divider"></div>
-
-            <div class="section" id="modalidad">
-                <h5>
-                  <i class="small material-icons">group</i>
-                  Modalidad
-                 </h5>
-                <p>Individual</p>
+                <p>Realizarás el autoestudio sobre la estructura de control más usada en la programación, <code>if.</code></p>
             </div>
             <div class="divider"></div>
 
@@ -64,7 +56,7 @@
                 <i class="small material-icons">check</i>
                 Objetivos de aprendizaje</h5>
                 <ul class="collection with-header">
-                    <li class="collection-item">Aplicar los conocimientos sobre variables, tipos y operadores en el desarrollo de un programa simple.</li>
+                    <li class="collection-item">Conocer la estructura de control <code>if (if, elif, else </code>anidados) y los operadores relacionales.</li>
                 </ul>
             </div>
             <div class="divider"></div>
@@ -74,35 +66,78 @@
                   <i class="small material-icons">list</i>
                   Instrucciones</h5>
                 <ul class="collection">
-                    
-                    <li class="collection-item">Desarrolla el algoritmo e impleméntalo en un programa en Python para cada uno de los ejercicios que se presentan a continuación.</li>
+
                     <li class="collection-item">
-                    Entrega, en la sección de "Envío de Tareas", los archivos que contengan los programas en C. <strong><i>Es importante que al inicio de cada archivo coloques el o los algoritmos que utilizaste.</i></strong>
+                        <p>Estudia los siguientes conceptos, haz notas y contesta las preguntas en tu libreta. 
+						Te recomendamos el uso de las siguientes fuentes:</p>      
+						<p>Fernandez, A. <i>Python 3: Al Descubierto </i>  Alfaomega, 2013, ISBN 978-607-707-718-3 </p>
+                        <p>Temas / conceptos:</p>
+                        <ol>
+							<li>Principales sentencias de control pag. 74</li>
+							<li>if, else y elif pag. 74</li>
+							<li><a href="https://docs.python.org/3/library/stdtypes.html#boolean-operations-and-or-not"> Tablas de referencia de operadores boleanos y comparación de Python</a></li>
+                        </ol>
                     </li>
                     <li class="collection-item">
-                    La actividad será evaluada usando <a target="_blank" href="documentos/rubrica_codificacion.pdf">la
-                    siguiente rubrica</a>.
-                    </li>
-                    <li class="collection-item">
-                    <h5>Problemas:</h5>
-                        <p>El siguiente programa lee una variable de tipo entera y escribe el valor leído en la pantalla. Utiliza este programa como ejemplo para desarrollar tus soluciones.</p>
-                        <img class="responsive-img" alt="" src="imagenes/imagen2-3-1.jpg"><br>
-                    </li>
-                    <li class="collection-item">
-                        <h5>Ejercicio 1</h5>
-                        <p>Desarrolla el algoritmo y posteriormente el programa completo en Python que solicite al usuario el valor asignado a los catetos de un triángulo rectángulo, y que calcule el valor resultante de la hipotenusa. Para la solución de este problema se sugiere que utilices el teorema de Pitágoras.</p>
-                        <img class="responsive-img" alt="" src="imagenes/imagen3-1-1.gif"><br>
-                        <p>El cálculo de la raíz cuadrada se puede realizar utilizando la función <code>sqrt( )</code> perteneciente a la librería <code>math.h (#include &lt;math.h&gt;).</code> Por ejemplo:</p>
-                        <p><code>x = sqrt ( y )         // La raíz de y se guarda en la variable x.<br>
-                        x = sqrt ( y + z )     // La raíz de y + z se guarda en la variable x.</code></p>
-                        <p><strong><i>Incluye el algoritmo como comentario al inicio del programa.</i></strong></p>
-                    </li>
-                    <li class="collection-item">
-                        <h5>Ejercicio 2</h5>
-                        <p>Desarrolla el algoritmo y posteriormente un programa completo en Python que determine el volumen de la siguiente figura geométrica (imagine que es un medio cilindro). El radio (r) y la altura (h) son solicitadas al usuario.</p>
-                        <img class="responsive-img" alt="" src="imagenes/imagen3-1-2.gif"><br>
-                        <p>El valor de <strong><i>PI debe de ser declarada como una constante</i></strong> cuyo valor es igual a 3.141592. </p>
-                        <p><strong><i>Incluye el algoritmo como comentario al inicio del programa.</i></strong></p>
+                        <p>Responde las siguientes preguntas:</p>
+                        <p>1. Evalúa cada expresión usando los datos de la columna de enmedio.</p>
+                        <table class="striped">
+                            <thead>
+                                <th>Expresión</th>
+                                <th>Datos</th>
+                                <th>Evaluación</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>not variable</code></td>
+                                    <td><code>variable = False</code></td>
+                                    <td> True (ejemplo)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>num > 4.0</code></td>
+                                    <td><code>num = 5.2</code></td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td><code>not variable 	and (x >= 0)</code></td>
+                                    <td><code>variable = true, num = 5.2</code></td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td><code>not (variable and (num >= 0) )</code></td>
+                                    <td><code>variable = true, num = 5.2</code></td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td><code>(x + y) &lt;= 20.5</code></td>
+                                    <td><code>x = 17.1 , y = 3.4 </code></td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td><code>(n >= 0)  and (100 >= n) </code></td>
+                                    <td><code>n = 20</code></td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td><code>((a + 2) &lt;= b) and not variable
+                                </code></td>
+                                    <td><code> a = 5, b = 8 y variable = False
+                                </code></td>
+                                    <td> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>2. Desarrolla el código para cada uno de los siguientes problemas:</p>
+                        <ol>
+                            <li>Dado un valor n, convertirlo a su valor absoluto.</li>
+                            <li>Dado un valor n, determinar si es par o impar.</li>
+                        </ol>
+                        <p>3. Para cada uno de los casos, da un ejemplo una situación concreta 
+						donde sea necesario usar esa estructura de decisión. 
+						<strong>Justifica por qué usarías esa estructura en partícular </strong></p>
+                        <ol>
+                            <li> <img src="imagenes/pseudocodigo if.png"><//li>
+                        </ol>
                     </li>
                 </ul>
             </div>
@@ -118,7 +153,7 @@
               <i class="small material-icons">offline_pin</i>
               Especificaciones de entrega
             </h5>
-                <p>Los archivos deberán ser entregados a través de la sección de "Envío de Tareas" de Blackboard.</p>
+                <p>Las preguntas se revisarán en su libreta al inicio de la clase.</p>
             </div>
             <div class="divider"></div>
 
