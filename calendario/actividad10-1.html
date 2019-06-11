@@ -17,7 +17,7 @@
 	<meta name="author" content="Benjamín Valdés">
 
 	<meta name="author" content="Becari@ Anónimo">
-    <title>Actividad: Autoestudio sobre arreglos: Arreglos.</title>
+    <title>Actividad: Autoestudio sobre listas o arreglos.</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@
 
         <div class="container">
             <div class="section">
-                <h3>Actividad: Autoestudio sobre arreglos: Arreglos.</h3>
+                <h3>Actividad: Autoestudio sobre listas o arreglos.</h3>
             </div>
         </div>
 
@@ -44,18 +44,9 @@
             <div class="section" id="descripcion">
                 <h5>
                   <i class="small material-icons">info_outline</i>
-                  Autoestudio sobre arreglos: Arreglos.
+                  Autoestudio sobre listas o arreglos.
                 </h5>
-                <p>Realizarás el autoestudio que presenta el concepto de arreglos.</p>
-            </div>
-            <div class="divider"></div>
-
-            <div class="section" id="modalidad">
-                <h5>
-                  <i class="small material-icons">group</i>
-                  Modalidad
-                 </h5>
-                <p>Individual</p>
+                <p>Realizarás el autoestudio que presenta el concepto de listas.</p>
             </div>
             <div class="divider"></div>
 
@@ -64,7 +55,7 @@
                 <i class="small material-icons">check</i>
                 Objetivos de aprendizaje</h5>
                 <ul class="collection with-header">
-                    <li class="collection-item">Conocer el concepto de arreglos.</li>
+                    <li class="collection-item">Conocer el concepto de lista y su relación con arreglos.</li>
                 </ul>
             </div>
             <div class="divider"></div>
@@ -76,45 +67,54 @@
                 <ul class="collection">
                     
                     <li class="collection-item">
-                        <p>Estudia de uno de los siguientes libros la secciones indicadas:</p>
-                        <p>Joyanes Aguilar, L. y Zahonero Martínez, I. <i>Programación en C, C++, Java y UML.</i> México : McGraw Hill, 2010.</p>
+                         <p>Estudia los siguientes conceptos, haz notas y contesta las preguntas en tu libreta. 
+						Te recomendamos el uso de las siguientes fuentes:</p>      
+						<p>Fernandez, A. <i>Python 3: Al Descubierto </i>  Alfaomega, 2013, ISBN 978-607-707-718-3 </p>
+                        <p>Temas / conceptos:</p>
                         <ol>
-                            <li>Arreglos. (pp. 235)</li>
-                            <li>Inicialización de un arreglo. (pp. 238)</li>
-                        </ol>
-                        <p>Joyanes Aguilar, L. y Zahonero Martínez, I. <i>Programación en C, C++, Java y UML.</i> México : McGraw Hill, 2014.</p>
-                        <ol>
-                            <li>Arreglos. (pp. 222)</li>
-                            <li>Inicialización de un arreglo. (pp. 225)</li>
+							<li>Listas pag. 62</li>
+							<li>Inserciones y Borrado pag. 63</li>
+							<li>Diccionarios pag. 69</li>
+							<li>Inserción y Borrados pag. 70</li>
+						</ol>	
+                    </li>
+                    <li class="collection-item">
+                        <p>1. Escribe python lo siguiente:
+						<ol>
+							<li>Declara una lista con 15 números.</li>
+							<li>Establece el valor de la localidad 5 a 35.</li>
+							<li>Establece el valor de la localidad 9 a la suma de la localidad 6 y la 13.</li>
+							<li>Establece el valor de la localidad 8 a 3 veces el valor de la localidad 4, menos 57</li>
+							<li>Escribe el ciclo para imprimir la lista la a pantalla y que queden 5 valores por línea.
+		                    usa <strong>end = ''</strong> para evitar el salto de línea por default así:
+							<p><code><pre>	print( num, end = '') <pre><code></p>
+							</li>
                         </ol>
                     </li>
                     <li class="collection-item">
-                        <p>1. Escribe en lenguaje C lo siguiente:<ol>
-                        <li>Declara un arreglo a1 de 15 elementos de tipo  int.</li>
-                        <li>Establece el valor de la localidad 5 a 35.</li>
-                        <li>Establece el valor de la localidad  9 a la suma de la localidad 6 y la 13.</li>
-                        <li>Establece el valor de la localidad 8 a 3 veces el valor de la localidad 4, menos 57</li>
-                        <li>Escribe el ciclo para imprimirlo a pantalla y que queden 5 valores por línea.</li>
-                        </ol>
-                    </li>
-                    <li class="collection-item">
-                        <p>2. Supón que arr es un arreglo de  5 elementos de tipo int. ¿Qué estará almacenado en arr después  del que el siguiente código se ejecute?</p>
+                        <p>2. ¿Qué imprimiría el sieguiente código?</p>
                         <p><code><pre> 
-for (i = 0; i &lt 5; i++) { 
-    arr[i] = 2 * i + 5;
-    if( i % 2 == 0 ) {
-        arr[i] = arr[i] – 3;
-    }
-}
+		numeros = [0,1,2,3,4]
+		val = 0 
+		for num in numeros: 
+			if( num % 2 == 0 ):
+				val = val + num * 5
+			
+		print(val)
                         </pre></code></p>
                     </li>
                     <li class="collection-item">
-                        3. ¿Cuál es la ventaja o desventaja de usar un arreglo vs. muchas variables sueltas?
-                    </li>
+                       3. Escribe una función que reciba una lista de números y devuelva el promedio de los elementos en la lista
+					</li>
                     <li class="collection-item">
-                       4. ¿En que casos crees que te convenga usar arreglos y en cuales variables sueltas?
+                       4. Escribe un diccionario que guarde el nombre de 3 amigos y sus respectivos correo electronicos, apodos o teléfonos
+				   </li>                    
+                    <li class="collection-item">
+                       5. ¿En qué casos crees que te convenga usar una lista y en cuales variables sueltas?
+                    </li>                    
+                    <li class="collection-item">
+                       6. ¿En qué casos crees que te convenga usar un diccionario en lugar de una lista?
                     </li>
-                    
                 </ul>
             </div>
             <div class="divider"></div>
