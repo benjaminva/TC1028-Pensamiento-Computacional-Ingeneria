@@ -82,16 +82,21 @@
                     </li>
                     <li class="collection-item">
                     <h5>Problemas:</h5>
-                    El procedimiento reemplazar_carácter que recibe una cadena de caracteres y dos caracteres, x y y. El procedimiento deberá reemplazar todos los caracteres x en la cadena por el carácter y.
+					Desarrolla la función formato_web, que recibe una cadena de texto y la convierte en texto de una pagina web para lo anterior necesitas varias funciones:
                     </li>
                     <li class="collection-item">
-                    El procedimiento invierte que recibe una cadena de caracteres. El procedimiento invierte el contenido de la cadena de caracteres. Por ejemplo, dado "¿Cómo estás?", nos muestra "?sátse omóC¿".
+                    La función inserta_html que recibe una cadena de texto e insert al principio de la cadena "&lt;html&gt;&lt;body&gt;" y al final "&lt;/body &gt;&lt;/html&gt;"
+					de tal forma que si se manda a llamar insert_html("Hola mundo"), lo que devolvería la función sería "&lt;html&gt;&lt;body&gt; Hola Mundo &lt;/body &gt;&lt;/html&gt;"
                     </li>
                     <li class="collection-item">
-                    El procedimiento cuenta_todo que recibe una cadena de caracteres. El procedimiento muestra el número de vocales, de consonantes y de dígitos que hay en la cadena.
-                    </li>
+                    La función inserta_saltos de línea, deonde cada vez que encuentre un salto de línea en la cadena "Hola \n mundo" lo remplaza por &lt;br&gt; 
+					de tal forma que si se manda a llamar inserta_saltos("Hola a todos\n mi nombre es Goku!"), la función devuelve "Hola a todos&lt;br&gt; mi nombre es Goku!".                    </li>
                     <li class="collection-item">
-                    La función es_palindromo que recibe una cadena de caracteres. La función regresa verdadero si una cadena es un palíndromo, falso en otro caso. Por ejemplo, "Anita lava la tina" es un palíndromo. Ignora los signos de puntuación, blancos y las mayúsculas y minúsculas.
+					Corre la función formato_web y copia la salida de la consola a un archivo de texto. Salva el archivo con la extensión .html y arrastra el archivo a tu navegadro web.
+					Voila! ya haz hecho tu primer código generador de páginas web.
+                    <li class="collection-item">
+					La función es_palindromo que recibe una cadena y devuelve True si la cadenas es palíndromo o False en caso contratio. 
+					Por ejemplo, "Anita lava la tina" es un palíndromo. Ignora los signos de puntuación, espacios en blanco, las mayúsculas y minúsculas.
                     </li>
                     
                 </ul>
