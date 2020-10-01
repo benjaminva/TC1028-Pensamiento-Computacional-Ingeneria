@@ -1,0 +1,58 @@
+Sub-Competencia: 
+
+Error original:
+
+Cambio realizado:
+
+Líneas de código donde se ve la corrección:
+
+
+============================ Ejemplo 1 =====================================
+
+
+Sub-Competencia: 
+	componente: aplica estructuras condicionales para resolver un problema
+
+Error original: Habia puesto 2 ifs que no funcionanban porque la sintaxis estaba mal: 
+
+	if (a = b):
+		print ("azul") 
+
+Cambio realizado: Corregí los if y usé ahora anidación
+
+	if (a == 256):
+		if (b == 128):
+			print ("azul")
+		else:
+			print("amarillo")
+	else:
+		print("el color no se encontró")
+
+Líneas de código donde se ve la corrección: 47 a 56 
+
+============================ Ejemplo 2 =====================================
+
+
+Sub-Competencia: 
+	Aplica funciones de manera adecuada para segmentar el código y mantener reusabilidad y modularidad (avance 2)
+
+Error original: Tenía el 90% de mi código amontonado en el main y solo 2 funciones auxiliares 
+
+
+Cambio realizado: Generé las siguiente funciones que se usan ahora dentro del main
+
+	 def menu()
+
+	 def valida_color(color_num)
+
+	 def selecciona_color(opcion)
+
+	 def sugiere_cuadro(lista_cuadros, color)
+
+Líneas de código donde se ve la corrección: 
+
+	34 a 52  menu
+	56 a 60  valida color
+	63 a 70  selecciona color
+	77 a 80  sugiere cuadro
+
