@@ -29,6 +29,6 @@ lado = 2
 
 area_cuadrado = lado * lado
 
-area_piramide = area_triangulo + area_cuadrado
+area_piramide = area_triangulo * 4 + area_cuadrado
 
-print("área pirámide",
+print("área pirámide", area_piramide )
