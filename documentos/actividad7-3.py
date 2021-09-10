@@ -27,7 +27,7 @@ print(fact(5))
 """
 Usando sólo sumas y/o restas, obtener el módulo y cociente de una división.
 """
-def division(divisor, dividendo): # dividendo/divisor
+def division(dividendo, divisor): # dividendo/divisor
 
     cociente = 1
 
@@ -37,16 +37,15 @@ def division(divisor, dividendo): # dividendo/divisor
     modulo = divisor - dividendo
 
     if modulo != 0 :
-            cociente = cociente + 1
+            cociente = cociente - 1
             modulo = dividendo
 
     return cociente, modulo
 
-print(division (10, 100))
-print(division (2, 100))
-print(division (3, 100))
-print(division (11, 100))
-
+print(division (100, 10))
+print(division (20, 2))
+print(division (10, 3))
+print(division (100, 11))
 
 
 """
