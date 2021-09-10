@@ -23,21 +23,30 @@ print(fact(5))
 
 
 
+
 """
 Usando sólo sumas y/o restas, obtener el módulo y cociente de una división.
 """
 def division(divisor, dividendo): # dividendo/divisor
 
-    cociente = 0
+    cociente = 1
 
     while dividendo > divisor:
         dividendo = dividendo - divisor
         cociente = cociente + 1
     modulo = divisor - dividendo
 
-    return dividendo, modulo
+    if modulo != 0 :
+            cociente = cociente + 1
+            modulo = dividendo
 
-print(division (4, 15))
+    return cociente, modulo
+
+print(division (10, 100))
+print(division (2, 100))
+print(division (3, 100))
+print(division (11, 100))
+
 
 
 """
